@@ -3,3 +3,7 @@ function foo(){
 }
 
 console.log('chuut');
+
+function trou(trou){
+    return trou;
+}

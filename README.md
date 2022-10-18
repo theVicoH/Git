@@ -88,3 +88,17 @@ De base, vous pouvez tomber sur trois types de fusion :
 - Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche.
 - Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit.
 - Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) .
+
+### Supprimer et rename une branche
+
+Afin de supprimer une branche, on doit se situer sur une branche différente de celle qu'on veut supprimer, puis :
+
+<span style="color:red;">git branch -d maBranche</span>
+
+Afin de créer une branche et de se déplacer dessus intantanément, on éxécute :
+
+<span style="color:red;">git switch -c maBranche</span>
+
+Lorsqu'on veut changer le nom d'une branche, on navigue dessus, puis on lance :
+
+<span style="color:red;">git branch -m changementDeNom</span>

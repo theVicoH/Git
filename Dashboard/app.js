@@ -2,4 +2,4 @@ function foo(){
     console.log('bvn')
 }
 
-console.log('yo');
+console.log('chuut');

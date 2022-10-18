@@ -76,3 +76,15 @@ Pour créer une branche :
 Pour se déplacer sur une branche
 
 <span style="color:red;">git switch maBranche</span>
+
+### Merge
+
+Pour faire fusionner une ou plusieurs branches, on se déplace d'abord sur la branche qu'on veut fusionner avec une autre puis :
+
+<span style="color:red;">git merge autreBranche</span>
+
+De base, vous pouvez tomber sur trois types de fusion :
+
+- Fusion simple "Fast Forward", les historiques de commits se lient sans conflit, car il y avait des changements seulement sur une branche.
+- Fusion par récursion, lorsque il y a des commits différents sur plusieurs branches qu'on "merge", mais que ces commits ne rentrent pas en conflit.
+- Fusion avec conflit, lorsqu'il y a des commits différents sur plusieurs branches que l'on "merge" et que ces commits modifient des choses similaires(ajout de code à la même ligne, changement du code initial, supression de fichiers) .

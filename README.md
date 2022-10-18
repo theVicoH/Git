@@ -150,3 +150,31 @@ Nous pouvons visualiser la liste de tags :
 Nous pouvons supprimer un tag :
 
 <span style="color:red;">git tag -d nomDuTag</span>
+
+### Restore
+
+Si on a effectué des changements et qu'ils ne nous plaisent plus :
+
+<span style="color:red;">git restore nomDuFichier</span>
+
+Cela permet de rapidement remettre à zéro un fichier sur lequel on travaillait, ça ne veut pas dire que le fichier sera forcement vide, il reaffiche simplement le contenu du commit sur lequel on se trouve.
+
+On peut visualiser un fichier qui se situe à un ancient commit, afin de voir son code, avec :
+
+<span style="color:red;">git restore --source HEAD~3 index.html</span>
+
+Cela nous montre le code de l'index.html 3 ancêtres avant le commit sur lequel je me trouve, à vous d'ajuster le tilde(~) en fonction de ce que vous voulez visualiser.
+
+Pour revenir à l'état de votre fichier dans le commit où vous vous trouviez :
+
+<span style="color:red;">git restore nomDuFichier(ici index.html)</span>
+
+ou
+
+<span style="color:red;">git checkout HEAD nomDuFichier</span>
+
+
+
+Nous pouvons également supprimé les fichiers en zone de transit avec :
+
+<span style="color:red;">git restore --staged index.html</span>

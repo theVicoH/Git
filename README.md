@@ -108,3 +108,25 @@ Lorsqu'on veut changer le nom d'une branche, on navigue dessus, puis on lance :
 Afin de visualiser les changements qui ont eu lieu dans les fichiers modifiés, on peut éxécuter :
 
 <span style="color:red;">git diff</span>
+
+### Checkout
+
+La commande git checkout possède des tonnes d'utilisations possibles.
+
+Dans cette la vidéo précédente nous avons vu qu'elle nous permet de nous déplacer de branche en branche :
+
+<span style="color:red;">git checkout nomDeBranche</span>
+
+On peut aussi créer une branche avec checkout, même si on lui préfère git branch aujourd'hui :
+
+<span style="color:red;">git checkout -b nomDeBrancheACréer</span>
+
+Nous avons vu que nous pouvons également nous déplacer parmi les commits avec checkout :
+
+<span style="color:red;">git checkout idDeCommit(ex: 45645645)</span>
+
+Pour revenir en haut de la liste de commits, nous pouvons faire au chois :
+
+<span style="color:red;">git switch nomDeLaBrancheEnCours</span>
+
+<span style="color:red;">git checkout nomDeLaBrancheEnCours</span>

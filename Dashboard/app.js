@@ -4,6 +4,6 @@ function foo(){
 
 console.log('chuut');
 
-function chips (test){
-    console.log(test)
+function trou(trou){
+    return trou;
 }

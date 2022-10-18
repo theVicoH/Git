@@ -130,3 +130,23 @@ Pour revenir en haut de la liste de commits, nous pouvons faire au chois :
 <span style="color:red;">git switch nomDeLaBrancheEnCours</span>
 
 <span style="color:red;">git checkout nomDeLaBrancheEnCours</span>
+
+### Tag
+
+Enfin dans la seconde partie nous avons vu que nous pouvions créer des tags pour mieux nous repérer.
+
+On se déplace d'abord sur le commit que l'on veut "taguer", puis :
+
+<span style="color:red;">git tag nomDuTag</span>
+
+Nous pouvons désormais nous déplacer vers le commit du tag correspondant :
+
+<span style="color:red;">git checkout nomDuTag</span>
+
+Nous pouvons visualiser la liste de tags :
+
+<span style="color:red;">git tag</span>
+
+Nous pouvons supprimer un tag :
+
+<span style="color:red;">git tag -d nomDuTag</span>

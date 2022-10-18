@@ -62,3 +62,17 @@ Une fois sorti de l'interface qui s'affiche, c'est fait, le commit est réalisé
 Pour changer le nom du commit head ainsi qu'add les fichiers modif:
 
 <span style="color:red;">git commit --amend -m "nom"</span>
+
+### Branch
+
+Pour lister les branches :
+
+<span style="color:red;">git branch</span>
+
+Pour créer une branche :
+
+<span style="color:red;">git branch maBranche</span>
+
+Pour se déplacer sur une branche
+
+<span style="color:red;">git switch maBranche</span>

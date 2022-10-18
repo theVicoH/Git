@@ -102,3 +102,9 @@ Afin de créer une branche et de se déplacer dessus intantanément, on éxécut
 Lorsqu'on veut changer le nom d'une branche, on navigue dessus, puis on lance :
 
 <span style="color:red;">git branch -m changementDeNom</span>
+
+### Diff
+
+Afin de visualiser les changements qui ont eu lieu dans les fichiers modifiés, on peut éxécuter :
+
+<span style="color:red;">git diff</span>

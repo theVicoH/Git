@@ -1,4 +1,4 @@
-# Git
+# Git Sheet
 
 ### Config
 
@@ -46,7 +46,7 @@ On regarde l'historique des commits (des sauvegardes) :
 
 <span style="color:red;">git log</span>
 
-### Ammend
+### Amend
 
 Pour rattraper un commit dans lequel on aurait oublié d'intégrer un fichier, on ajoute d'abord le ou les fichiers oubliés :
 

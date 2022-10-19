@@ -190,8 +190,14 @@ Pour supprimer des commits jusqu'à un commit passé tout en supprimant les chan
 
 <span style="color:red;">git reset --hard idCommit</span>
 
-
-
 Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
 
 <span style="color:red;">git revert idDuCommitÀRetrouver</span>
+
+### Cherry-pick
+
+Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas une branche entière :
+
+<span style="color:red;">git cherry-pick idDuCommit</span>
+
+On se place au préalable sur la branche qui veut intégrer ces commits, comme pour un merge.

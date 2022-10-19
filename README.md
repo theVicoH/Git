@@ -175,3 +175,23 @@ ou
 Nous pouvons également supprimé les fichiers en zone de transit avec :
 
 <span style="color:red;">git restore --staged index.html</span>
+
+### Reset et Revert
+
+Pour afficher l'historique de commits sur une ligne :
+
+<span style="color:red;">git log --oneline</span>
+
+Pour supprimer des commits jusqu'à un commit passé :
+
+<span style="color:red;">git reset idCommit</span>
+
+Pour supprimer des commits jusqu'à un commit passé tout en supprimant les changements qu'il peuvent avoir été éffectués :
+
+<span style="color:red;">git reset --hard idCommit</span>
+
+
+
+Pour sauter un ou des commits et atterir dans un nouveau commit contenant le contenu d'un ancien commit :
+
+<span style="color:red;">git revert idDuCommitÀRetrouver</span>

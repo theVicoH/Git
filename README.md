@@ -1,6 +1,5 @@
 # Git
 
-
 ### Config
 
 On initialise un nom + email, qu'on peut modifier à tout moment avec :
@@ -172,8 +171,6 @@ Pour revenir à l'état de votre fichier dans le commit où vous vous trouviez :
 ou
 
 <span style="color:red;">git checkout HEAD nomDuFichier</span>
-
-
 
 Nous pouvons également supprimé les fichiers en zone de transit avec :
 

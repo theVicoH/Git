@@ -4,7 +4,7 @@
 
 On initialise un nom + email, qu'on peut modifier à tout moment avec :
 
-``git config --global user.name "John doe"`
+`git config --global user.name "John doe"`
 
 `git config --global user.email "johndoe@gmail.com"`
 

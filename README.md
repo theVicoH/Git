@@ -201,3 +201,27 @@ Pour intégrer seulement un commit ou des commits qui nous intéressent mais pas
 <span style="color:red;">git cherry-pick idDuCommit</span>
 
 On se place au préalable sur la branche qui veut intégrer ces commits, comme pour un merge.
+
+### Github
+
+Pour lier un dépôt distant à un dépôt local :
+
+<span style="color:red;">git remote add origin urlDepotDistant</span>
+
+Pour envoyer le contenu du dépôt local vers le dépôt distant, tout en liant les branches main à main avec -u(upstream) :
+
+<span style="color:red;">git push -u origin main</span>
+
+### Clone
+
+Pour cloner un dépôt :
+
+<span style="color:red;">git clone urlDuDépôtÀCloner</span>
+
+Afficher toutes les branches et les branches du dépôt distant en rouge(remotesBranches) :
+
+<span style="color:red;">git branch -a</span>
+
+Afficher seulement les remotes branches
+
+<span style="color:red;">git branch -r</span>

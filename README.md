@@ -226,3 +226,8 @@ Afficher seulement les remotes branches
 
 `git branch -r`
 
+### Remote
+
+Afin de visualiser la liaison d'un dépôt local on peut faire :
+
+`git remote -v`
